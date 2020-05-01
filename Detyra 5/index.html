@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Detyra 3</title>
+    <link rel="stylesheet" href="css\css.css">
+    <script src="main.js">
+
+
+
+    </script>
+  </head>
+  <body>
+
+
+    <div class="header">
+      <div class="logo">
+        <img src="logo.png" alt="" width="100px" height="100px;">
+      </div>
+      <div class="nav">
+        <ul>
+          <li><button class="btn" id="li1" onmouseover="addClass1()" onmouseout="removeClass1()">Home</button></li>
+          <li><button class="btn" id="li2" onmouseover="addClass2()" onmouseout="removeClass2()">About Us</button></li>
+          <li><button class="btn" id="li3" onmouseover="addClass3()" onmouseout="removeClass3()">Contact</button></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="loginbox">
+
+    <fieldset class="fieldset">
+      <header>
+        <div class="head1">
+        <a href="#" class="linkLogin"><b>Login</b></a>
+        </div>
+        <div class="head2">
+        <a href="#" class="linkRegister"><b>Register</b></a>
+        </div>
+
+    </header>
+
+
+
+          <ul type="none">
+
+            <li id="usernameLi">
+              Username: <br>
+              <form name="myForm" onsubmit="validateForm()" method="post" required>
+              <input type="text" name="username" value="" id="usernameInput" placeholder="username...">
+            </form>
+            </li>
+            <li id="passwordLi">
+              Password: <br>
+              <input type="password" name="password" value="" id="passwordInput" placeholder="password...">
+
+            </li>
+          </ul>
+
+
+<input type="submit" value="Submit" id="loginButton"></input>
+
+    </fieldset>
+
+    </div>
+
+<a href="https://github.com/arditbytyci/detyra5" target="_blank">Repository Link </a>
+  </body>
+</html>
